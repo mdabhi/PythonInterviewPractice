@@ -15,10 +15,10 @@ def checkAnagram(str1, str2)-> bool:
     else:
         return False
 
-str1 = input("Enter 1st string:")
-str2 = input("Enter 2nd string:")
+string1 = input("Enter 1st string:")
+string2 = input("Enter 2nd string:")
 
-result = checkAnagram(str1,str2)
+result = checkAnagram(string1,string2)
 if result == True:
     print(f'Entered 2 strings are anagrams!!')
 else:
